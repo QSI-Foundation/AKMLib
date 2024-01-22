@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKMInterface", "AKMInterfac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKMLogic", "AKMLogic\AKMLogic.csproj", "{1F26DF24-2C13-4275-867A-B16EF5AC1809}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKMWorkerService", "AKMWorkerService\AKMWorkerService.csproj", "{8BB83A9E-7A25-4B1E-A2F3-26446AD20099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkmAutomatedTestClient", "AkmAutomatedTestClient\AkmAutomatedTestClient.csproj", "{F8F499F5-ECCF-4E47-AAFB-E6614C96E3AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{1F26DF24-2C13-4275-867A-B16EF5AC1809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F26DF24-2C13-4275-867A-B16EF5AC1809}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F26DF24-2C13-4275-867A-B16EF5AC1809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB83A9E-7A25-4B1E-A2F3-26446AD20099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB83A9E-7A25-4B1E-A2F3-26446AD20099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB83A9E-7A25-4B1E-A2F3-26446AD20099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB83A9E-7A25-4B1E-A2F3-26446AD20099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F499F5-ECCF-4E47-AAFB-E6614C96E3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F499F5-ECCF-4E47-AAFB-E6614C96E3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F499F5-ECCF-4E47-AAFB-E6614C96E3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F499F5-ECCF-4E47-AAFB-E6614C96E3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
