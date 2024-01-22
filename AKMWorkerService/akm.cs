@@ -143,7 +143,7 @@ namespace mlibakm
         private int encKeyIdx, decKeyIdx;
         private Event? sendEvent;
         public const int ParameterDataVectorSize = 128;
-        private Timer timer;
+        private System.Timers.Timer timer;
         private object procLock = new object();
 
         [DllImport("libakm.dll", CallingConvention = CallingConvention.Cdecl)]
@@ -157,7 +157,7 @@ namespace mlibakm
 
         public Relationship(IKeyFactory keyFactory, IKey[] initialKeys, ref Configuration config)
         {
-            timer = new Timer();
+            timer = new System.Timers.Timer();
             timer.AutoReset = false;
             timer.Elapsed += Timer_Elapsed;
             this.keyFactory = keyFactory;
