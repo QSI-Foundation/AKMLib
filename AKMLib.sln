@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKMCommon", "AKMCommon\AKMCommon.csproj", "{EC78BE57-FB3A-4FD5-BA64-1E86CC5D94FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKMInterface", "AKMInterface\AKMInterface.csproj", "{BABAB154-71E8-4812-B0B1-1CD6F5A98583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKMLogic", "AKMLogic\AKMLogic.csproj", "{1F26DF24-2C13-4275-867A-B16EF5AC1809}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC78BE57-FB3A-4FD5-BA64-1E86CC5D94FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC78BE57-FB3A-4FD5-BA64-1E86CC5D94FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC78BE57-FB3A-4FD5-BA64-1E86CC5D94FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC78BE57-FB3A-4FD5-BA64-1E86CC5D94FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABAB154-71E8-4812-B0B1-1CD6F5A98583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABAB154-71E8-4812-B0B1-1CD6F5A98583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABAB154-71E8-4812-B0B1-1CD6F5A98583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABAB154-71E8-4812-B0B1-1CD6F5A98583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F26DF24-2C13-4275-867A-B16EF5AC1809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F26DF24-2C13-4275-867A-B16EF5AC1809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F26DF24-2C13-4275-867A-B16EF5AC1809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F26DF24-2C13-4275-867A-B16EF5AC1809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
