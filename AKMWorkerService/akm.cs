@@ -146,13 +146,13 @@ namespace mlibakm
         private System.Timers.Timer timer;
         private object procLock = new object();
 
-        [DllImport("libakm.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("libakm", CallingConvention = CallingConvention.Cdecl)]
         private static extern Status AKMInit(ref ProcessCtx ctx, ref Configuration config);
 
-        [DllImport("libakm.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("libakm", CallingConvention = CallingConvention.Cdecl)]
         private static extern void AKMProcess(ref ProcessCtx ctx);
 
-        [DllImport("libakm.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("libakm", CallingConvention = CallingConvention.Cdecl)]
         private static extern void AKMFree(IntPtr relationship);
 
         public Relationship(IKeyFactory keyFactory, IKey[] initialKeys, ref Configuration config)

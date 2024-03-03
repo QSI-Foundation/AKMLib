@@ -20,19 +20,19 @@ namespace AKMInterface
 		/// <param name="ctx">AKM processing context reference</param>
 		/// <param name="config">AKM configuration structure reference</param>
 		/// <returns></returns>
-		[DllImport("libakm.dll", CallingConvention = CallingConvention.Cdecl)]
+		[DllImport("libakm", CallingConvention = CallingConvention.Cdecl)]
 		static extern AkmStatus AKMInit(ref AkmProcessCtx ctx, ref AkmConfiguration config);
 		/// <summary>
 		/// Processes AKM frame
 		/// </summary>
 		/// <param name="ctx">reference to AKM processing context</param>
-		[DllImport("libakm.dll", CallingConvention = CallingConvention.Cdecl)]
+		[DllImport("libakm", CallingConvention = CallingConvention.Cdecl)]
 		static extern void AKMProcess(ref AkmProcessCtx ctx);
 		/// <summary>
 		/// Frees up resources allocated for given relationship by unmanaged code
 		/// </summary>
 		/// <param name="relationship">pointer to AKM relationship</param>
-		[DllImport("libakm.dll", CallingConvention = CallingConvention.Cdecl)]
+		[DllImport("libakm", CallingConvention = CallingConvention.Cdecl)]
 		static extern void AKMFree(IntPtr relationship);
 
 		/// <summary>
@@ -40,7 +40,7 @@ namespace AKMInterface
 		/// </summary>
 		/// <param name="relationship"></param>
 		/// <param name="config"></param>
-		[DllImport("libakm.dll", CallingConvention = CallingConvention.Cdecl)]
+		[DllImport("libakm", CallingConvention = CallingConvention.Cdecl)]
 		static extern void AKMGetConfig(IntPtr relationship, ref AkmConfiguration config);
 	}
 }
