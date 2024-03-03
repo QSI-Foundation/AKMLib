@@ -1,0 +1,6 @@
+/* https://aka.ms/devcontainer.json */
+{
+	"build": {
+		"dockerfile": "Dockerfile"
+	}
+}
