@@ -1,4 +1,4 @@
-- name: Introduction
-  href: introduction.md
-- name: Getting Started
-  href: getting-started.md
+- name: Required configuration
+  href: required-configuration.md
+- name: Basic interaction objects
+  href: basic-interaction-objects.md
