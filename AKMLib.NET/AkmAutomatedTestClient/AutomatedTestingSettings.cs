@@ -1,4 +1,4 @@
-﻿namespace AkmAutomatedTestClient
+namespace AkmAutomatedTestClient
 {
 	public class AutomatedTestingSettings
 	{

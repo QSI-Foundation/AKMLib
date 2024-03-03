@@ -1,4 +1,4 @@
-﻿namespace AKMWorkerService
+namespace AKMWorkerService
 {
 	/// <summary>
 	/// Helper class used for automated tests setup
