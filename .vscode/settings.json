@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/libakmc",
+    "cmake.buildDirectory": "${workspaceFolder}/libakmc/out"
+}
