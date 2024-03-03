@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKMWorkerService", "AKMWork
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkmAutomatedTestClient", "AkmAutomatedTestClient\AkmAutomatedTestClient.csproj", "{F8F499F5-ECCF-4E47-AAFB-E6614C96E3AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKM_Tests", "AKM_Tests\AKM_Tests.csproj", "{ACD05FB6-3682-4945-AE1D-A774D61914DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{F8F499F5-ECCF-4E47-AAFB-E6614C96E3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8F499F5-ECCF-4E47-AAFB-E6614C96E3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8F499F5-ECCF-4E47-AAFB-E6614C96E3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD05FB6-3682-4945-AE1D-A774D61914DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD05FB6-3682-4945-AE1D-A774D61914DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD05FB6-3682-4945-AE1D-A774D61914DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD05FB6-3682-4945-AE1D-A774D61914DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
