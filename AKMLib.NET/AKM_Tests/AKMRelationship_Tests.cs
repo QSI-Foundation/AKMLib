@@ -31,7 +31,7 @@ namespace AKM_Tests
 			keyFactoryMock.Setup(x => x.Create(byteArr)).Returns(keyMock.Object);
 			decrMokc.Setup(x => x.Encrypt(keyMock.Object)).Returns(encrMock.Object);
 			encrMock.Setup(x => x.Decrypt(keyMock.Object)).Returns(decrMokc.Object);
-			loggerMock.Setup(x => x.LogDebug(It.IsAny<string>())).Verifiable();
+			//loggerMock.Setup(x => x.LogDebug(It.IsAny<string>())).Verifiable();
 		}
 
 		[Test]
