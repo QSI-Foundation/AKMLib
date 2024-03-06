@@ -64,12 +64,14 @@ AKMLib
 
 `AKMLib.NET` depends on `libakmc`.
 
-## libakmc
+## `libakmc`
 
 `libakmc` is a native library written in `C`. Thus, depending on the operating system, it compiles a `*.so` or `*.dll` file.
 
 As a build system, we adopted [`CMake`](https://cmake.org/cmake/help/latest/guide/tutorial/index.html).
 We recommend [`Visual Studio`](https://visualstudio.microsoft.com) for compiling Windows `*.dll`.
+
+## `AKMLib.NET`
 
 `AKMLib.NET` is a multiplatform `.NET` solution (`*.sln`).
 There are several `C#` projects (`*.csproj`) in the `AKMLib.NET` solution:
